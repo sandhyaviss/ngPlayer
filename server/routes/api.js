@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose= require('mongoose');
 const Video = require('../video');
 
-const db="write your datbase url";
+const db="write your database url";
 mongoose.Promise = global.Promise;
 mongoose.connect(db,{ useNewUrlParser: true }, function(err){
     if(err){
