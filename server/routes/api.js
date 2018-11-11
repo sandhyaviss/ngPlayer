@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose= require('mongoose');
 const Video = require('../video');
 
-const db="mongodb://usersandhya:sriharshita06@ds137812.mlab.com:37812/store";
+const db="write your datbase url";
 mongoose.Promise = global.Promise;
 mongoose.connect(db,{ useNewUrlParser: true }, function(err){
     if(err){
